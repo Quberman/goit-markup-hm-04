@@ -147,10 +147,7 @@ li {
   letter-spacing: 0.02em;
   text-decoration: none;
 }
-/* .contacts:hover,
-.contacts:focus {
-  color: var(--blue-hover);
-} */
+
 .contacts-hover:hover,
 .contacts-hover:focus {
   color: var(--blue-hover);
