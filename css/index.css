@@ -200,9 +200,8 @@ li {
 .hero-block {
   margin-left: auto;
   margin-right: auto;
-  /* outline: solid 2px tomato; */
   width: 1600px;
-  margin-bottom: 94px;
+  /* outline: solid 2px tomato; */
 }
 .back-settings {
   width: 1600px;
@@ -233,7 +232,7 @@ li {
   padding-top: 200px;
   font-family: Roboto;
   font-style: normal;
-  font-weight: 900;
+  /* font-weight: 900; */
   font-size: 44px;
   line-height: 60px;
   letter-spacing: 0.06em;
@@ -288,8 +287,7 @@ li {
   flex-direction: row;
   justify-content: flex-start;
   margin: 0 auto;
-  padding: 0;
-  margin-bottom: 94px;
+  padding: 94px 0;
 }
 .section-list-advant .item {
   max-width: 270px;
@@ -302,18 +300,16 @@ li {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin-top: 0;
-  padding: 0;
-  margin-bottom: 94px;
+  margin: 0;
+  padding: 0 0 94px;
 }
 
 .section-list-team {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin-top: 0;
-  padding: 0;
-  margin-bottom: 94px;
+  margin: 0;
+  padding: 0 0 94px;
 }
 
 .section-list li:not(:last-child) {
@@ -341,6 +337,7 @@ li {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
+  background-color: #fff;
 }
 
 .social-list {
@@ -405,8 +402,8 @@ li {
 .clients-list {
   display: flex;
   justify-content: center;
-  padding: 0;
-  margin: 0 0 94px;
+  padding: 0 0 94px;
+  margin: 0;
 }
 
 .clients-list svg {
