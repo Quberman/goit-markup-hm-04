@@ -36,10 +36,17 @@ li {
   background-color: rgba(47, 48, 58, 1);
 }
 /* Навигация */
+
+.header {
+  border-bottom: 1px solid var(--white-border);
+}
+
 .navi-flex {
+  margin: 0 auto;
+  padding: 0 15px;
+  width: 1200px;
   display: flex;
   justify-content: space-between;
-  border-bottom: 1px solid var(--white-border);
 }
 .navigation {
   display: flex;
